@@ -47,6 +47,19 @@ Gold: customer, sales, product, seller, delivery, and ML-ready datasets
 	+--> Business analytics
 	+--> Future ML feature engineering
 ```
+### Entity Relationship Diagram (Inferred)
+```mermaid
+erDiagram
+    CUSTOMERS ||--o{ ORDERS : "places"
+    ORDERS ||--o{ ORDER_ITEMS : "contains"
+    ORDERS ||--o{ PAYMENTS : "processed by"
+    ORDERS ||--o{ REVIEWS : "evaluated by"
+    PRODUCTS ||--o{ ORDER_ITEMS : "listed in"
+    SELLERS ||--o{ ORDER_ITEMS : "fulfills"
+    GEOLOCATION ||--o{ CUSTOMERS : "locates"
+```
+
+---
 
 ### Data-grain decisions
 

@@ -286,7 +286,7 @@ This project emphasizes correctness over simply producing a large denormalized t
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE.md](LICENSE.md) for the full license text.
+This project is licensed under the MIT License. See [LICENSE.md](LICENSE) for the full license text.
 
 The Olist dataset is subject to its own terms on [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce); review those terms before redistributing the data or derived artifacts.
 
